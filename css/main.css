@@ -1,0 +1,51 @@
+.frm-toggle {
+  color: #337ab7;
+  cursor: pointer;
+}
+.frm-toggle:hover {
+  text-decoration: underline;
+}
+.frm-hidden {
+	display: none;
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.pull-center {
+	text-align: center;
+}
+.form-margin-side {
+	margin: 0 2% 0 2% !important;
+	width: 96% !important;
+}
+.footer {
+	width: 100%;
+	position:fixed;
+  	bottom: 10px;
+  	height:40px;
+}
+.status-true {
+	padding: 2px;
+	background-color: #dff0d8;
+	color: #3c763d;
+	border-radius: 2px;
+}
+.status-false {
+	padding: 2px;
+	background-color: #f2dede;
+	color: #a94442;
+	border-radius: 2px;
+}
+.forgot-toggle {
+	color: #337ab7;
+	cursor: pointer;
+}
+.forgot-toggle:hover {
+	text-decoration: underline;
+}
+.width70 {
+	width: 70%;
+}
