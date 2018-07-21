@@ -1,0 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://sdk.paylike.io/2.js"></script>
+<script>
+    var paylike = Paylike('292ee62b-f867-40d2-823e-53b138188a1d');
+    $(document).ready(function () {
+        paylike.popup({
+            title: 'ESTA USA DHS-GOV',
+            currency: 'USD',
+            fields: [
+                // elaborate custom field
+                {
+                    name: 'email',
+                    type: 'email',
+                    placeholder: 'user@example.com',
+                    required: true,
+                },
+            ],
+            amount: 10000,
+        }, function (err) {
+             alert(err);
+            location.href = 'https://www.dhsgov-esta.us/thank-you.html';
+        });
+    });
+    function pay() {
+
+    }
+</script>
